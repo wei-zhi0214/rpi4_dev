@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/irqwait/irqwait.mod := printf '%s\n'   irqwait.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/irqwait/"$$0) }' > /home/william/rpi4_dev/KernelModule/irqwait/irqwait.mod

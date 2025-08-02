@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/led/ledSys/ledSys.mod := printf '%s\n'   ledSys.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/led/ledSys/"$$0) }' > /home/william/rpi4_dev/KernelModule/led/ledSys/ledSys.mod

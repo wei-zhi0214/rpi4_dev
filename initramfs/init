@@ -1,0 +1,4 @@
+#!/bin/sh
+mount -t devtmpfs dev /dev
+exec /bin/sh
+

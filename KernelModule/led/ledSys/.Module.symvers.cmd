@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/led/ledSys/Module.symvers :=  sed 's/ko$$/o/'  /home/william/rpi4_dev/KernelModule/led/ledSys/modules.order | scripts/mod/modpost       -o /home/william/rpi4_dev/KernelModule/led/ledSys/Module.symvers -e -i Module.symvers -T - 

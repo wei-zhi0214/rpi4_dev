@@ -1,0 +1,30 @@
+#!/bin/sh
+
+# 顯示訊息
+echo "[INIT] Starting init..." > /dev/console
+
+# 建立必要的目錄
+mkdir -p /proc /sys /dev /tmp /mnt/rootfs
+
+# 掛載虛擬檔案系統
+mount -t proc none /proc
+mount -t sysfs none /sys
+#mount -t devtmpfs none /dev || mdev -s
+
+# 設定 BusyBox 的 dev
+[ -e /dev/console ] || mknod -m 622 /dev/console c 5 1
+[ -e /dev/null ]    || mknod -m 666 /dev/null    c 1 3
+[ -e /dev/tty ]     || mknod -m 666 /dev/tty     c 5 0
+
+# 啟動 BusyBox 的 Shell
+echo "[INIT] Launching shell..." > /dev/console
+# exec >/dev/console 2>&1 </dev/console
+#  exec /bin/sh
+# 顯示訊息
+echo "[INIT] Mounting real rootfs..." > /dev/console
+
+# 掛載 SD 卡的 ext4 rootfs 分割區
+mount -t ext4 /dev/mmcblk0p2 /mnt/rootfs
+
+# 切換 rootfs 並啟動新的系統
+exec switch_root /mnt/rootfs /sbin/init

@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/memchardevice/mymem.mod := printf '%s\n'   mymem.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/memchardevice/"$$0) }' > /home/william/rpi4_dev/KernelModule/memchardevice/mymem.mod

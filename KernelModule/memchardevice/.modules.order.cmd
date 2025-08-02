@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/memchardevice/modules.order := {   echo /home/william/rpi4_dev/KernelModule/memchardevice/mymem.ko; :; } > /home/william/rpi4_dev/KernelModule/memchardevice/modules.order
