@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/multidev/multi_dev.mod := printf '%s\n'   multi_dev.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/multidev/"$$0) }' > /home/william/rpi4_dev/KernelModule/multidev/multi_dev.mod

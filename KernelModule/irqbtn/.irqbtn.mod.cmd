@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/irqbtn/irqbtn.mod := printf '%s\n'   irqbtn.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/irqbtn/"$$0) }' > /home/william/rpi4_dev/KernelModule/irqbtn/irqbtn.mod

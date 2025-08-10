@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/inputSys/inputkbd.mod := printf '%s\n'   inputkbd.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/inputSys/"$$0) }' > /home/william/rpi4_dev/KernelModule/inputSys/inputkbd.mod

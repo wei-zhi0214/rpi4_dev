@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/irqtasklet/Module.symvers :=  sed 's/ko$$/o/'  /home/william/rpi4_dev/KernelModule/irqtasklet/modules.order | scripts/mod/modpost -m -a     -o /home/william/rpi4_dev/KernelModule/irqtasklet/Module.symvers -e -i Module.symvers -T - 

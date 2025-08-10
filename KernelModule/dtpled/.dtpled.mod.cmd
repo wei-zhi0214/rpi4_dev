@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/dtpled/dtpled.mod := printf '%s\n'   dtpled.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/dtpled/"$$0) }' > /home/william/rpi4_dev/KernelModule/dtpled/dtpled.mod

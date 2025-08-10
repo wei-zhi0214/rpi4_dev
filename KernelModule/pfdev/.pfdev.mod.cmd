@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/pfdev/pfdev.mod := printf '%s\n'   pfdev.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/pfdev/"$$0) }' > /home/william/rpi4_dev/KernelModule/pfdev/pfdev.mod

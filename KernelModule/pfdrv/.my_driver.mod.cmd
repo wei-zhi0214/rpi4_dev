@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/pfdrv/my_driver.mod := printf '%s\n'   my_driver.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/pfdrv/"$$0) }' > /home/william/rpi4_dev/KernelModule/pfdrv/my_driver.mod

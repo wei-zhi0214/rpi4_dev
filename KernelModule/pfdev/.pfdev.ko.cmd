@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/pfdev/pfdev.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/william/rpi4_dev/KernelModule/pfdev/pfdev.ko /home/william/rpi4_dev/KernelModule/pfdev/pfdev.o /home/william/rpi4_dev/KernelModule/pfdev/pfdev.mod.o;  true

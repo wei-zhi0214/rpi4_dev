@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/pfdrv/Module.symvers :=  sed 's/ko$$/o/'  /home/william/rpi4_dev/KernelModule/pfdrv/modules.order | scripts/mod/modpost -m -a     -o /home/william/rpi4_dev/KernelModule/pfdrv/Module.symvers -e -i Module.symvers -T - 

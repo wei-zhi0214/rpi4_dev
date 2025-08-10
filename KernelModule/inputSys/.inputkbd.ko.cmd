@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/inputSys/inputkbd.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/william/rpi4_dev/KernelModule/inputSys/inputkbd.ko /home/william/rpi4_dev/KernelModule/inputSys/inputkbd.o /home/william/rpi4_dev/KernelModule/inputSys/inputkbd.mod.o;  true

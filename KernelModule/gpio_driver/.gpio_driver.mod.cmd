@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/gpio_driver/gpio_driver.mod := printf '%s\n'   gpio_driver.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/gpio_driver/"$$0) }' > /home/william/rpi4_dev/KernelModule/gpio_driver/gpio_driver.mod

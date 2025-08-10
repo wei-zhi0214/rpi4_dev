@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/mpu6050/mpu6050.mod := printf '%s\n'   mpu6050.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/mpu6050/"$$0) }' > /home/william/rpi4_dev/KernelModule/mpu6050/mpu6050.mod

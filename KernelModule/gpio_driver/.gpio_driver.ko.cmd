@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/gpio_driver/gpio_driver.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/william/rpi4_dev/KernelModule/gpio_driver/gpio_driver.ko /home/william/rpi4_dev/KernelModule/gpio_driver/gpio_driver.o /home/william/rpi4_dev/KernelModule/gpio_driver/gpio_driver.mod.o;  true

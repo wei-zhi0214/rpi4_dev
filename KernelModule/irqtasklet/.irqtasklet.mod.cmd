@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/irqtasklet/irqtasklet.mod := printf '%s\n'   irqtasklet.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/irqtasklet/"$$0) }' > /home/william/rpi4_dev/KernelModule/irqtasklet/irqtasklet.mod

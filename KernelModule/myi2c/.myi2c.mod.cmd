@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/KernelModule/myi2c/myi2c.mod := printf '%s\n'   myi2c.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/KernelModule/myi2c/"$$0) }' > /home/william/rpi4_dev/KernelModule/myi2c/myi2c.mod
