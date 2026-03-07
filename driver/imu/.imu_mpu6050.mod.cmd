@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/driver/imu/imu_mpu6050.mod := printf '%s\n'   imu_mpu6050.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/driver/imu/"$$0) }' > /home/william/rpi4_dev/driver/imu/imu_mpu6050.mod

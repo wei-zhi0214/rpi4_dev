@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/driver/motor/motor_pwm.mod := printf '%s\n'   motor_pwm.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/driver/motor/"$$0) }' > /home/william/rpi4_dev/driver/motor/motor_pwm.mod

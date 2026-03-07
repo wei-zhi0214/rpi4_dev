@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/driver/motor/motor_pwm.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/william/rpi4_dev/driver/motor/motor_pwm.ko /home/william/rpi4_dev/driver/motor/motor_pwm.o /home/william/rpi4_dev/driver/motor/motor_pwm.mod.o;  true

@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/driver/encoder/quad_encoder.ko := aarch64-linux-gnu-ld -r -EL  -maarch64elf -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/william/rpi4_dev/driver/encoder/quad_encoder.ko /home/william/rpi4_dev/driver/encoder/quad_encoder.o /home/william/rpi4_dev/driver/encoder/quad_encoder.mod.o;  true

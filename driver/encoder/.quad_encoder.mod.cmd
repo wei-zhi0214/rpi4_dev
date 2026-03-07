@@ -1,0 +1,1 @@
+cmd_/home/william/rpi4_dev/driver/encoder/quad_encoder.mod := printf '%s\n'   quad_encoder.o | awk '!x[$$0]++ { print("/home/william/rpi4_dev/driver/encoder/"$$0) }' > /home/william/rpi4_dev/driver/encoder/quad_encoder.mod
